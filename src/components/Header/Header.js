@@ -41,11 +41,8 @@ const Header = () => (
       <li>
         <NavLink href="#about">About</NavLink>
       </li>
-      <li>
-        <a href="/resume.pdf" download style={{ textDecoration: "none", color: "white" }}>
-          <NavLink as="span">Resume</NavLink>
-        </a>
-      </li>
+      
+      
       
     </Div2>
 

@@ -152,7 +152,41 @@ export const projects = [
     source: "https://github.com/muhdzaheermv/can-we-meet-funny-app",
     id: 16,
   },
+   {
+    title: "ChargeSpot - EV Charging & Service Booking System",
+    description: "Full-stack Django app for booking EV charging/service slots, managing stations, feedback, and Razorpay payments.",
+    image: "/images/chargespot.png",
+    tags: ["Django", "Python", "Bootstrap", "HTML", "CSS", "JavaScript"],
+    visit: "https://chargespot-ev.onrender.com/",
+    source: "https://github.com/muhdzaheermv/chargespot-ev-slot-booking-using-django",
+    id: 17,
+  },
 ];
+
+export const Certificates = [
+  {
+    certificate_title: "Fullstack Application Development Trainee - Grapesgenix",
+    certificate_description: "6-month training in building full-stack web applications using Python Django, HTML, CSS, JavaScript, Bootstrap, Tailwind CSS, PostgreSQL, and SQLite. Developed REST APIs, integrated databases, and collaborated using Git in agile sprints.",
+    image: "/images/certificate_1.jpg",
+    source: "/images/certificate_1.pdf",
+    id: 3
+  },
+  {
+    certificate_title: "AI Internship - Grapesgenix Technical Solutions",
+    certificate_description: "Completed a 4-month internship on Artificial Intelligence using Python, gaining hands-on experience in AI concepts and projects.",
+    image: "/images/certificate_2.jpg",
+    source: "/images/certificate_2.pdf",
+    id: 1
+  },
+  {
+    certificate_title: "Industrial Visit Certificate - InApp Technologies",
+    certificate_description: "Completed an industrial visit at InApp Information Technologies, Trivandrum as part of BCA curriculum requirements.",
+    image: "/images/certificate_3.jpg",
+    source: "/images/certificate_3.pdf",
+    id: 2
+  }
+];
+
 
 
 export const TimeLineData = [

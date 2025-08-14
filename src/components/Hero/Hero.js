@@ -18,17 +18,18 @@ const Hero = (props) => (
       <SectionText>
 Self-taught developer since 2019 and BCA student at Calicut University. Started with the MERN stack, now focused on Python & Django. Passionate about solving real-world problems through tech. Always learning, building, and leveling up.
       </SectionText>
-      {/* <Button
-        onClick={() =>
-          (window.location =
-            "https://www.linkedin.com/in/muhammed-zaheer-836132244/")
-        }
-      >
-        Learn more
-      </Button> */}
-      <Button onClick={() => (window.location.href = "#about")}>
-        Learn more
-      </Button>
+      <Button
+          onClick={() => {
+            const link = document.createElement("a");
+            link.href = "/resume.pdf";
+            link.download = "resume.pdf"; // The filename for the downloaded file
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+          }}
+        >
+          Download Resume
+        </Button>
     </LeftSection>
   </Section>
 );

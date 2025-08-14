@@ -2,10 +2,12 @@ import Acomplishments from '../components/Acomplishments/Acomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
 import Projects from '../components/Projects/Projects';
+import Certificates from '../components/Projects/Certificates';
 import Technologies from '../components/Technologies/Technologies';
 import Timeline from '../components/TimeLine/TimeLine';
 import { Layout } from '../layout/Layout';
 import { Section } from '../styles/GlobalComponents';
+
 
 const Home = () => {
   return (
@@ -15,6 +17,7 @@ const Home = () => {
         {/* <BgAnimation /> */}
       {/* </Section> */}
       <Projects />
+      <Certificates />
       <Technologies />
       <Timeline />
       <Acomplishments />
